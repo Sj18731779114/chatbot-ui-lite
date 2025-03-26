@@ -149,7 +149,7 @@ export default function Home() {
           />
         </Head>
 
-        <div className="flex flex-col h-screen">
+        <div className="flex flex-col">
           <Navbar
               onReset={handleReset}
               onAbort={handleAbort}
@@ -167,7 +167,7 @@ export default function Home() {
               <div ref={messagesEndRef} />
             </div>
           </div>
-          {/* <Footer /> */}
+           {/*<Footer />*/}
         </div>
       </>
   );
