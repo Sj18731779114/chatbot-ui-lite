@@ -48,9 +48,9 @@ export const ChatInput: FC<Props> = ({ onSend }) => {
     <div className="relative">
       <textarea
         ref={textareaRef}
-        className="min-h-[44px] rounded-lg pl-4 pr-12 py-2 w-full focus:outline-none focus:ring-1 focus:ring-neutral-300 border-2 border-neutral-200"
+        className="min-h-[44px] rounded-lg pl-4 pr-12 py-2 w-full focus:outline-none focus:ring-none focus:ring-neutral-300 border-2 border-neutral-200 select-none"
         style={{ resize: "none" }}
-        placeholder="Type a message..."
+        placeholder="有问题，尽管问.."
         value={content}
         rows={1}
         onChange={handleChange}
