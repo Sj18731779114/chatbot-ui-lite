@@ -164,6 +164,7 @@ export default function Home() {
                   onReset={handleReset}
                   onAbort={handleAbort}
               />
+              <br/>
               <div ref={messagesEndRef} />
             </div>
           </div>

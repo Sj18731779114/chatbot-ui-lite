@@ -33,7 +33,7 @@ export const Chat: FC<Props> = ({ messages, loading, onSend, onReset, onAbort })
                     )}
                 </div>
 
-                <div className="fixed flex-1 w-full max-w-[800px] mx-auto mt-2 px-3 sm:px-0 bottom-0"
+                <div className="fixed flex-1 w-full max-w-[800px] mx-auto mt-2 px-2 sm:px-0 bottom-0"
                      style={{ boxShadow: "0 -20px 180px rgba(0, 0, 0, 0.085)"}}>
                     <ChatInput onSend={onSend} />
                 </div>
