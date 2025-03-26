@@ -164,11 +164,10 @@ export default function Home() {
                   onReset={handleReset}
                   onAbort={handleAbort}
               />
-              <br/>
-              <div ref={messagesEndRef} />
+              <div className="h-12" ref={messagesEndRef}/>
             </div>
           </div>
-           {/*<Footer />*/}
+          {/*<Footer />*/}
         </div>
       </>
   );
